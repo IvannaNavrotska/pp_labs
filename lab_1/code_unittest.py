@@ -5,14 +5,14 @@ class TestCode(unittest.TestCase):
 
     def test_gcd(self):
 
-        result = code.gcd(12,6)
-        self.assertEqual(result, 6)
-
         result = code.gcd(0,0)
         self.assertEqual(result, None)
 
         result = code.gcd(-15,0)
         self.assertEqual(result, -15)
+
+        result = code.gcd(12,6)
+        self.assertEqual(result, 6)
 
         result = code.gcd(17,32)
         self.assertEqual(result, 1)
