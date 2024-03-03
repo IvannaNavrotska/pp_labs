@@ -1,3 +1,5 @@
+#here you can find gcd of any two integers
+
 def gcd (a,b):
     if a == 0 and b == 0:
         return
@@ -6,6 +8,7 @@ def gcd (a,b):
     else:
         return gcd(b, a%b)
 
+#in case you forgot the fibonacci numbers
 
 def fibonacci (f):
     if f == 0 or f == 1:
