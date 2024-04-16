@@ -11,6 +11,7 @@ def gcd (a,b):
     else:
         return gcd(b, a%b)
 
+#in case you forgot the fibonacci numbers
 
 #in case you forgot the fibonacci numbers
 
@@ -22,5 +23,4 @@ def fibonacci (f):
         return 1
     else:
         return fibonacci(f-1) + fibonacci(f-2)
-      
-      
+     
