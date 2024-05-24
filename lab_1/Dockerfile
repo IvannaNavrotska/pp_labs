@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-CMD ["python", "code_unittest.py"]
+CMD ["python", "-m", "unittest", "code_unittest.py"]
